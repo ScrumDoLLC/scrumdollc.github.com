@@ -1,0 +1,107 @@
+body {
+	margin-top: 1.0em;
+	background-color: #ffffff;	
+	color: #000000;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+#container {
+	margin: 0 auto;
+	width: 700px;
+}
+
+#devInfo {
+
+	color: #444;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	
+	text-decoration: none;
+	color: #0622b8;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 3.8em;
+	color: #3e392e;
+	margin-bottom: 3px;
+}
+
+h1 .small {
+	font-size: 0.4em;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #3e392e;
+}
+
+h3 {
+	text-align: center;
+	color: #3e392e;
+}
+
+
+.description {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-style: italic;
+}
+
+.download {
+	background-color: #dafddc;
+	width: 600px;
+	padding: 3px 20px 20px;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	margin: 50px auto auto;
+}
+.download h2 {
+	text-align: left;
+}
+
+.download a {
+	font-size: 16px;
+}
+
+pre {
+	background: #000;
+	color: #fff;
+	padding: 15px;
+}
+
+hr {
+	border: 0;
+	width: 80%;
+	border-bottom: 1px solid #aaa
+}
+
+.footer {
+	text-align: center;
+	padding-top: 30px;
+	font-style: italic;
+}
+
+.comingSoon {
+	background-color: #fef5ea;
+	padding: 10px;
+	margin-bottom: 35px;
+	border: 15px solid #d03d40;
+}
+
