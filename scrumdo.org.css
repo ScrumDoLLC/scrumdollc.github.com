@@ -6,6 +6,28 @@ body {
 
 }
 
+#advertisement a {
+    color: #ffffff;
+}
+#advertisement {
+    width: 300px;
+    left: 10px;
+    top: 10px;
+    background-color: #FF8000;
+    padding:15px;
+    font-weight: bold;
+    text-shadow: #111111 1px 1px 3px;
+    color: #ffffff;  
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 5px 5px 5px #666;
+    -webkit-box-shadow: 5px 5px 5px #666;
+    box-shadow: 5px 5px 5px #666;
+    
+    
+}
+
 #container {
 	margin: 0 auto;
 	width: 700px;
