@@ -10,12 +10,13 @@ body {
     color: #ffffff;
 }
 #advertisement {
-    width: 300px;
+    width: 800px;
     left: 10px;
     top: 10px;
     background-color: #FF8000;
     padding:15px;
-    font-weight: bold;
+
+    font-size: 22px;
     text-shadow: #111111 1px 1px 3px;
     color: #ffffff;  
     -webkit-border-radius: 8px;
@@ -24,9 +25,18 @@ body {
     -moz-box-shadow: 5px 5px 5px #666;
     -webkit-box-shadow: 5px 5px 5px #666;
     box-shadow: 5px 5px 5px #666;
-    
-    
+    line-height: 36px;
+    text-align: center;   
+    margin-left: 40px; 
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
+
+#advertisement h1 {
+	line-height: 40px;
+    font-size: 48px;	
+}
+
 
 #container {
 	margin: 0 auto;
@@ -49,13 +59,13 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	
 }
 
 h1 {
 	font-size: 3.8em;
 	color: #3e392e;
-	margin-bottom: 3px;
+	margin-bottom: 35px;
 }
 
 h1 .small {
