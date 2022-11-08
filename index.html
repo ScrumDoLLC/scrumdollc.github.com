@@ -1,118 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="keywords" content="scrum,tool,agile,story,open source" >
-
-	<title>ScrumDo - Free and Open Source Online Scrum Tool</title>
-	<link href="scrumdo.org.css" media="screen" rel="stylesheet" type="text/css" />
-	
-</head>
- 
-<body>
-  <a href="http://github.com/ScrumDoLLC/ScrumDo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="advertisement">
-	<a href="http://www.scrumdo.com/">
-    <h1>A bit dated...</h1>
-    
-    <p>
-        We haven't been able to keep the open source ScrumDo up to date and it's
-        fallen a few years behind.
-    </p>
-    <p>      
-      <b>You can find the full featured, commercial version at ScrumDo.com</b><br/>	 
-    </p>
-	</a>
-  </div>
-
-  <div id="container">
-  
-    <h1><a href="http://github.com/ScrumDoLLC/ScrumDo">ScrumDo</a> </h1>
-
-    <div class="description">
-      Online Scrum/Story Management Tool
-    </div>
-    
-
-    
-
-    <h2>License</h2>
-    ScrumDo is released under version 2.1 of the <a href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU LGPL</a>.
-
-    <h2>Developer information</h2>
-    
-    <ul id="devInfo">
-      <li><a href="http://groups.google.com/group/scrumdo-dev">ScrumDo-dev Google Group</a><br/>The place to discuss development of the site.</li>
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/Set-up">Development Environment Set Up</a><br/>Learn how to set up a development environment so you can modify ScrumDo</li>
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/ScrumDo-Development-Notes">Developer Notes</a><br/>Some notes to help orient developers.</li>
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/AboutUs">Project Goals / Manifesto</a><br/>The current vision of ScrumDo.  We'll be using this as a guideline for directing the future of ScrumDo.</li>      
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/Scrumdo-Extras-Guide">Extras Guide</a><br/>How to create ScrumDo Extras that interface with external systems</li>
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/Help-Needed">Requested Help</a><br/>Want to help, but don't know where to start?  Here's a list of things we're looking for some help on.</li>
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/Installing-ScrumDo-on-your-server.">Installing Scrumdo</a><br/>How to install ScrumDo on your own server.</li>
-      <li><a href="https://github.com/ScrumDoLLC/ScrumDo/wiki/Models">Data model diagrams</a><br/>Diagram showing the different model classes in ScrumDo.</li>      
-    </ul>
-
-    <h2>Screenshots</h2>
-    <a href="https://scrumdo-cdn.s3.amazonaws.com/uploads/daily_digest-1.png"><img width="150" src="https://scrumdo-cdn.s3.amazonaws.com/uploads/daily_digest-1.png"></a>  
-    <a href="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot1.png"><img width="150" src="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot1.png"></a>
-    <a href="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot2.png"><img width="150" src="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot2.png"></a>
-    <a href="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot3.png"><img width="150" src="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot3.png"></a>
-    <a href="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot4.png"><img width="150" src="http://scrumdo-cdn.s3.amazonaws.com/uploads/scrumdo_screenshot4.png"></a>
-    <br/>
-
-    <div class="donate">
-      <h2>Donate</h2>
-      <p>Find ScrumDo helpful?  Want to help us offset our development and hosting fees?</p>
-      <p>Consider donating.</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-      <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
-    </div>
-
-
-    <div class="download">
-      <h2>Get The Source</h2>
-      
-      <p>The best way is to get the project via GIT on GitHub:<br/><br/>
-        <pre>git clone https://github.com/ScrumDoLLC/ScrumDo.git</pre>
-        
-      </p>
-      
-      <p>Or you can download a packaged version of the master branch:</p>
-      
-      <a href="http://github.com/ScrumDoLLC/ScrumDo/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/ScrumDoLLC/ScrumDo/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-
-    </div>
-    
-
-    
-<br/><br/><br/>
-  
-
-  
-  <a href="http://www.scrumdo.com/">Online Scrum Tool</a>  
-
-  </div>
-
-  
-
-  <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-19817142-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url='https://www.scrumdo.com'" />
+  </head>
+  <body>
+    <p>Please follow <a href="https://www.scrumdo.com">this link</a>.</p>
+	  <script>
+		  window.location.href = "https://www.scrumdo.com/";
+	  </script>
+  </body>
 </html>
